@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Delete Account — Differently</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #f8fafc; color: #1e293b;
+      line-height: 1.7; padding: 0 16px;
+    }
+    .container { max-width: 760px; margin: 0 auto; padding: 48px 0 80px; }
+    h1 { font-size: 32px; font-weight: 800; margin-bottom: 8px; color: #0f172a; }
+    .meta { color: #64748b; font-size: 14px; margin-bottom: 40px; }
+    h2 { font-size: 20px; font-weight: 700; margin: 36px 0 12px; color: #0f172a; border-left: 4px solid #ef4444; padding-left: 12px; }
+    p { margin-bottom: 14px; color: #334155; }
+    ul { margin: 8px 0 14px 24px; color: #334155; }
+    ul li { margin-bottom: 6px; }
+    a { color: #4f46e5; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .steps {
+      background: #fff; border: 1px solid #e2e8f0;
+      border-radius: 10px; padding: 24px; margin: 20px 0;
+    }
+    .step {
+      display: flex; gap: 16px; margin-bottom: 20px; align-items: flex-start;
+    }
+    .step:last-child { margin-bottom: 0; }
+    .step-num {
+      background: #ef4444; color: #fff;
+      width: 32px; height: 32px; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 800; font-size: 14px; flex-shrink: 0;
+    }
+    .step-text strong { display: block; margin-bottom: 4px; color: #0f172a; }
+    .warning {
+      background: #fff7ed; border: 1px solid #fed7aa;
+      border-radius: 8px; padding: 16px 20px; margin: 20px 0;
+    }
+    .warning p { color: #9a3412; margin: 0; }
+    .email-btn {
+      display: inline-block; background: #ef4444; color: #fff;
+      padding: 12px 28px; border-radius: 10px; font-weight: 700;
+      font-size: 15px; margin: 8px 0; text-decoration: none;
+    }
+    footer { margin-top: 60px; padding-top: 24px; border-top: 1px solid #e2e8f0; color: #94a3b8; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <h1>Delete Your Account</h1>
+    <p class="meta">App: <strong>Differently</strong> &nbsp;·&nbsp; Developer: <strong>AutismResearch.ai</strong></p>
+
+    <p>You can request deletion of your Differently account and all associated data at any time. Please follow the steps below.</p>
+
+    <h2>How to Request Account Deletion</h2>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-text">
+          <strong>Send us an email</strong>
+          Email <a href="mailto:contact@autismresearch.ai">contact@autismresearch.ai</a> with the subject line <em>"Account Deletion Request"</em>.
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-text">
+          <strong>Include your account details</strong>
+          Include the Google email address you used to sign in to Differently so we can identify your account.
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-text">
+          <strong>We will confirm and delete</strong>
+          We will process your request within <strong>7 business days</strong> and send you a confirmation email once deletion is complete.
+        </div>
+      </div>
+    </div>
+
+    <a class="email-btn" href="mailto:contact@autismresearch.ai?subject=Account%20Deletion%20Request">
+      Email us to delete your account
+    </a>
+
+    <h2>What Gets Deleted</h2>
+    <p>When your account is deleted, the following data is permanently removed:</p>
+    <ul>
+      <li>Your Google account sign-in information</li>
+      <li>All communication data (symbols used, phrases, sentences)</li>
+      <li>AI usage history and monthly usage stats</li>
+      <li>Custom vocabulary and board configurations</li>
+      <li>Subscription records (Stripe billing info is deleted separately by Stripe)</li>
+    </ul>
+
+    <h2>What Is Retained</h2>
+    <ul>
+      <li>Anonymised, aggregated usage data used for app improvement (no personally identifiable information)</li>
+      <li>Financial transaction records retained for up to 7 years as required by law</li>
+    </ul>
+
+    <div class="warning">
+      <p>⚠ <strong>This action is permanent.</strong> Deleted data cannot be recovered. We recommend using the <em>"Download my data"</em> feature in the app before requesting deletion.</p>
+    </div>
+
+    <h2>Delete Only Your Data (Keep Account)</h2>
+    <p>If you'd like to delete your communication data and usage history but keep your account active, mention this in your email and we will delete only the specified data within 7 business days.</p>
+
+    <footer>
+      &copy; 2026 AutismResearch.ai · <a href="./index.html">Privacy Policy</a> · <a href="mailto:contact@autismresearch.ai">contact@autismresearch.ai</a>
+    </footer>
+
+  </div>
+</body>
+</html>
